@@ -1,4 +1,38 @@
-p{
-	color:blue;
-	font-size: 25px;
+
+/* Partie Centrale par Benjamin */
+
+section {
+    background-color: white;
+    border: solid grey 2px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+/* Headline*/
+
+h2 {
+    text-align: center;
+}
+
+section img {
+    width: 898px;
+    height: 438px;
+    margin-left: 128px;
+    margin-right: 128px;
+}
+
+section p {
+    text-align: center;
+}
+/* Partie Bootstrap*/
+
+.col-lg-6 {
+    border: solid 1px grey;
+    height: 796px;
+}
+
+.col-lg-6 img {
+    width: 80%;
+    height: auto;
+    margin: auto;
 }
