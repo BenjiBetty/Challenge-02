@@ -1,16 +1,32 @@
+/*  Partie haute par Jonathan */
 
 /*l'image de fond*/
-html {   
-    
+#box-wrapper {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
 }
 
 /* Header */
 header {
-    background-color: white;
-    border: solid grey 2px;
     margin-left: 75px;
     margin-right: 75px;
     text-align: center;
+    color: #ffffff;
+} 
+
+article p a {
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+h1 {
+    font-size: 90px;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 /*Footer*/
