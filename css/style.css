@@ -1,4 +1,21 @@
 
+/*l'image de fond*/
+html {   
+    
+}
+
+/* Header */
+header {
+    background-color: white;
+    border: solid grey 2px;
+    margin-left: 75px;
+    margin-right: 75px;
+    text-align: center;
+}
+
+/*Footer*/
+
+
 /* Partie Centrale par Benjamin */
 
 section {
