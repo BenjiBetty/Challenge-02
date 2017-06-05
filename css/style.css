@@ -172,6 +172,71 @@ nav {
 
 /*////////// Partie Centrale par Benjamin \\\\\\\\\\ */
 
+/* --------------- Nav Barre --------------- */
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro' , 'Sans Serif';
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    height: 65px;
+    opacity: 0.5em;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+li {
+    margin-left: none;
+    margin-right: 64px;
+    padding-top: 22px;
+}
+
+.onglet1 {
+    color: black;
+    background-color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+nav {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.onglet2:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.onglet3:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.onglet:hover {
+    color: white;
+}
+
+/* --------------- Social --------------- */
+
+.sociaux {
+    align-content: flex-end;
+    margin-left: 300px;
+}
+
+.twitter , .facebook , .instagram , .github , .onglet {
+    color: white;
+}
+
+.twitter:hover , .facebook:hover , .instagram:hover , .github:hover {
+    color: aqua;
+}
+
 /* ---------------Bloc Entier--------------- */
 
 section {
@@ -223,7 +288,7 @@ section {
     margin-bottom: 65px;
     width: 898px;
     height: 438px;
-    margin-left: 128px;
+    margin-left: 200px;
     margin-right: 128px;
 }
 
