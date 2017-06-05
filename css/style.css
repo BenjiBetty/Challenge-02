@@ -42,16 +42,68 @@ footer {
     color: #717981;
 } 
 
+.container {
+    margin: 0px 0px 0px 0px;
+    padding-left: 15px;
+    padding-right: 0px; 
+}
+
+#name {
+    border: solid 1px #e2e2e2;
+    background-color: #f5f5f5;
+    width: 450px;
+    height: 45px;
+}
+#email {
+    border: solid 1px #e2e2e2;
+    background-color: #f5f5f5;
+    width: 450px;
+    height: 45px;
+}
+#message {
+    border: solid 1px #e2e2e2;
+    background-color: #f5f5f5;
+    width: 450px;
+    height: 150px;
+}
+.special {
+    font-weight: bold;
+    color: #797981;
+    height: 55px;
+    border: solid 2px #797981;
+    background-color: #f5f5f5;
+    padding: 1px 30px 1px 30px;
+    text-align: center;
+}
+article {
+    font-weight: bold;
+    color: #717981;
+    margin: 50px;
+    margin-left: 50px;
+}
+
 article ul {
     text-decoration: none;
     text-align: center;
     display: flex;
+}
+
+article p {
+
+}
+
+nav {
+    background-color: transparent;
+    font-weight: bold;
+    margin-top: 50px;
 }
 #copyright  {
         text-decoration: none;
         text-align: center;
         background-color: transparent;
         color: #4e5754;
+        margin-top: 50px;
+        padding-bottom: 50px;
 }
 
 
@@ -61,7 +113,7 @@ article ul {
 
 section {
     background-color: white;
-    border: solid grey 2px;
+    border: solid #e2e2e2 2px; /* modification couleur bordure*/
     margin-left: 75px;
     margin-right: 75px;
 }
@@ -85,7 +137,7 @@ section p {
 /* Partie Bootstrap*/
 
 .col-lg-6 {
-    border: solid 1px grey;
+    border: solid 1px #e2e2e2;   /* modification couleur bordure*/
     height: 796px;
 }
 
