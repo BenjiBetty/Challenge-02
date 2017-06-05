@@ -18,23 +18,33 @@ header {
     text-align: center;
     color: #ffffff;
 } 
+.col-lg-12 {
+    text-align:center;
+    margin: 90px 0px 200px 0px;
+}
 
 .intro {
+    font-family: 'Merriweather','Sans Serif';
     color: #ffffff;
     background-color: transparent;
     text-decoration: none;
+    font-weight: lighter;
 }
 
 article p a {
     color: #ffffff;
     background-color: transparent;
     text-decoration: none;
+    line-height: 45px;
+    letter-spacing: 4px;
 }
 
 h1 {
-    font-size: 90px;
+    font-family: 'Source Sans Pro','Sans Serif';
+    font-size: 80px;
     color: #ffffff;
     font-weight: bold;
+    letter-spacing: 3px;
 }
 
 /* ---------------Le Footer--------------- */
@@ -53,7 +63,6 @@ footer {
     margin: auto;
     padding-left: 0px;
     padding-right: 0px; 
-    border-right-style: ;
 }
 
 .row {
@@ -92,6 +101,10 @@ footer {
     text-align: center;
 }
 
+.col-lg-12 {
+    padding-border-color: #797981;
+}
+
 article {
     font-weight: bold;
     color: #717981;
@@ -106,22 +119,27 @@ article ul {
 }
 
 #address {
+    text-align:left;
     height: 150px;
 }
 
 #phone {
+    text-align:left;
     height: 150px;
 }
 
 #mail {
+    text-align:left;
     height: 150px;
 }
 
 #social {
+    text-align:left;
     height: 150px;
 }
 
 .separation {
+
     height: 2px;
     width: 900px;
     margin-top: 0px;
