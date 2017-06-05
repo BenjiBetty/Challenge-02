@@ -114,11 +114,7 @@ nav {
 /* ---------------Bloc Entier--------------- */
 section {
     background-color: white;
-<<<<<<< Updated upstream
-    border: solid #e2e2e2 2px; /* modification couleur bordure*/
-=======
     border: solid #EEEEEE 2px;
->>>>>>> Stashed changes
     margin-left: 75px;
     margin-right: 75px;
 }
@@ -133,7 +129,7 @@ section {
     margin-right: 128px;
 }
 
-p {
+.paragraphes {
     text-align: center;
     font-family: 'Merriweather', 'Sans Serif';
     font-weight: 300;
@@ -145,11 +141,7 @@ p {
 /* ---------------Partie Bootstrap---------------*/
 
 .col-lg-6 {
-<<<<<<< Updated upstream
-    border: solid 1px #e2e2e2;   /* modification couleur bordure*/
-=======
     border: solid 1px #EEEEEE;
->>>>>>> Stashed changes
     height: 796px;
 }
 
