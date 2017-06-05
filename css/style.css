@@ -117,40 +117,79 @@ nav {
 
 
 
-/* Partie Centrale par Benjamin */
+/*////////// Partie Centrale par Benjamin \\\\\\\\\\ */
 
 /* ---------------Bloc Entier--------------- */
+
 section {
     background-color: white;
-    border: solid #EEEEEE 2px;
     margin-left: 75px;
     margin-right: 75px;
+    padding-left: 0px;
 }
 
+/* ---------------Partie Bootstrap---------------*/
 
-/* ---------------Headline--------------- */
+
+/* ---------------Premier Bloc--------------- */
+.firstbloc {
+    border-bottom: solid 2px #EEEEEE;
+}
+
+.firstparagraphe {
+    text-align: center;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 65px;
+    font-family: 'Merriweather', 'Sans Serif';
+    line-height: 35px;
+}
+
+.titre1 {
+    font-family: 'Source Sans Pro' , 'Sans Serif';
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: 0.1em;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.date1 {
+    font-family: 'Merriweather', 'Sans Serif';
+    font-weight: 300;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 80px;
+}
 
 .firstimg {
+    margin-bottom: 65px;
     width: 898px;
     height: 438px;
     margin-left: 128px;
     margin-right: 128px;
 }
 
-.paragraphes {
-    text-align: center;
-    font-family: 'Merriweather', 'Sans Serif';
-    font-weight: 300;
-    text-align: justify;
-    line-height: 35px;
-    
+.firstbloc .fullstory {
+    margin-bottom: 130px;
+    padding-top: 7px;
 }
 
-/* ---------------Partie Bootstrap---------------*/
+/* ---------------Fin du Premier Bloc--------------- */
 
-.col-lg-6 {
-    border: solid 1px #EEEEEE;
+.colonnes {
+    border-bottom: solid 2px;
+    border-bottom-color: #EEEEEE;
+    width: 100%;
     height: 796px;
+}
+
+.colonnegauche {
+    border-right: solid 2px #EEEEEE;
 }
 
 .date {
@@ -168,6 +207,21 @@ section {
     text-transform: uppercase;
     font-weight: 700;
     text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 1.3em;
+    color: black;
+}
+
+.paragraphes {
+    text-align: justify;
+    font-family: 'Merriweather', 'Sans Serif';
+    font-weight: 300;
+    text-align: justify;
+    line-height: 35px;
+    width: 80%;
+    height: auto;
+    margin-left: 55px;
+    
 }
 
 .col-lg-6 img {
@@ -180,15 +234,19 @@ section {
 }
 
 
+
 .fullstory {
     text-align: center;
-    border: solid 3px black;
+    border: solid 2px black;
     height: 46px;
     width: 142px;
     margin: auto;
     font-family: 'Source Sans Pro' , 'Sans Serif';
     text-transform: uppercase;
     font-weight: 700;
+    margin-top: 45px;
+    padding-top: 7px;
+    color: black;
 }
 
 /* ---------------Fin de la partie Bootstrap--------------- */
@@ -200,17 +258,56 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    border-top: solid 2px #EEEEEE;
+    margin-top: -2px;
 }
 
-.pages a {
+.un , .deux , .trois , .huit , .neuf , .dix , .next {
     border: solid 2px #EEEEEE;
-    height: 44px;
-    width: 44px;
+    height: 48px;
+    width: 48px;
     text-align: center;
+    padding-top: 10px;
+    margin-right: -2px;
+    color: black;
+    font-family: 'Source Sans Pro' , 'Sans Serif';
+    font-weight: 700;
+    font-size: 0.9em;
 }
 
 a.next {
-    width: 132px;
+    width: 110px;
+    text-transform: uppercase;
+}
+
+.un {
+    background-color: #EEEEEE;
+}
+
+.etc {
+    border: solid 2px #EEEEEE;
+    height: 48px;
+    width: 48px;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: -2px;
+    font-family: 'Source Sans Pro' , 'Sans Serif';
+    font-weight: 700;
+    font-size: 0.9em;
+    color: #EEEEEE;
+}
+
+a {
+    color: black;
+}
+
+a:link { 
+ text-decoration: none; 
+} 
+
+a:hover {
+    color: deepskyblue;
+    border-color: deepskyblue;
 }
