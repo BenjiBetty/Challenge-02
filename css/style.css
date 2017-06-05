@@ -111,38 +111,106 @@ nav {
 
 /* Partie Centrale par Benjamin */
 
+/* ---------------Bloc Entier--------------- */
 section {
     background-color: white;
+<<<<<<< Updated upstream
     border: solid #e2e2e2 2px; /* modification couleur bordure*/
+=======
+    border: solid #EEEEEE 2px;
+>>>>>>> Stashed changes
     margin-left: 75px;
     margin-right: 75px;
 }
 
-/* Headline*/
 
-h2 {
-    text-align: center;
-}
+/* ---------------Headline--------------- */
 
-section img {
+.firstimg {
     width: 898px;
     height: 438px;
     margin-left: 128px;
     margin-right: 128px;
 }
 
-section p {
+p {
     text-align: center;
+    font-family: 'Merriweather', 'Sans Serif';
+    font-weight: 300;
+    text-align: justify;
+    line-height: 35px;
+    
 }
-/* Partie Bootstrap*/
+
+/* ---------------Partie Bootstrap---------------*/
 
 .col-lg-6 {
+<<<<<<< Updated upstream
     border: solid 1px #e2e2e2;   /* modification couleur bordure*/
+=======
+    border: solid 1px #EEEEEE;
+>>>>>>> Stashed changes
     height: 796px;
 }
 
+.date {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-family: 'Merriweather', 'Sans Serif';
+    font-weight: 300;
+    font-size: 0.8em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.titres {
+    font-family: 'Source Sans Pro' , 'Sans Serif';
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
 .col-lg-6 img {
+    text-align: center;
     width: 80%;
     height: auto;
+    margin-left: 55px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+
+.fullstory {
+    text-align: center;
+    border: solid 3px black;
+    height: 46px;
+    width: 142px;
     margin: auto;
+    font-family: 'Source Sans Pro' , 'Sans Serif';
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* ---------------Fin de la partie Bootstrap--------------- */
+
+
+/* ---------------Navigation entre les pages--------------- */
+
+.pages {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.pages a {
+    border: solid 2px #EEEEEE;
+    height: 44px;
+    width: 44px;
+    text-align: center;
+}
+
+a.next {
+    width: 132px;
 }
