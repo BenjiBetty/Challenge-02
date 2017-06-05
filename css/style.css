@@ -121,22 +121,27 @@ article ul {
 #address {
     text-align:left;
     height: 150px;
+    font-weight: lighter;
 }
 
 #phone {
     text-align:left;
     height: 150px;
+    font-weight: lighter;
 }
 
 #mail {
     text-align:left;
     height: 150px;
+    font-weight: lighter;
 }
 
 #social {
     text-align:left;
     height: 150px;
+    letter-spacing: 8px;
 }
+
 
 .separation {
 
